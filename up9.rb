@@ -2,7 +2,7 @@ class Up9 < Formula
   desc "Everything you need to get started with up9"
   homepage "https://docs.up9.com"
   url "https://up9cli.s3.amazonaws.com/up9-darwin-x64.tar.gz"
-  sha256 "17991a84c7f472f4802e5764e515404ddd3df108586e4fd3977dde9a14109879"
+  sha256 "ff811dd99aa4e95ea54fd596df008df065023597b544d75db0b9c1f98ba32412"
 
   def install
     inreplace "bin/up9", /^CLIENT_HOME=/, "export UP9_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
